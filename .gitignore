@@ -1,0 +1,33 @@
+# Build products and local tooling
+.build/
+.swiftpm/
+.DS_Store
+.cursor/
+.mcp.json
+work/
+outputs/
+# Runtime state, credentials, recordings and user content
+.env
+.env.*
+!.env.example
+connection.json
+connection.json.*
+bridge.pid
+*.log
+*.db
+*.sqlite*
+*.pem
+*.key
+*.p12
+shots/
+screenshots/
+captures/
+logs/
+data/
+avatars/
+*.droplet/
+*.app/
+*.zip
+__pycache__/
+*.pyc
+validation-report.json

@@ -1,0 +1,41 @@
+{
+  "id": "grok-notch",
+  "name": "Grok Notch",
+  "version": "0.3.1",
+  "summary": "Vos bots, leurs avatars et leurs messages dans la notch.",
+  "description": "Interface SwiftUI pour Droppy connectée à la session Grok Bot locale. Intégration expérimentale indépendante, testée avec Grok Bot 0.78.1. Chaque installation utilise son propre compte.",
+  "category": "Productivity",
+  "kit": {
+    "abi": 1,
+    "minAPI": "1.16.0"
+  },
+  "minAppVersion": "15.3.0",
+  "capabilities": [
+    "expanded-surface",
+    "global-shortcuts",
+    "shelf-write",
+    "network-client",
+    "hud"
+  ],
+  "surfaces": [
+    "shelf-widget",
+    "expanded-surface",
+    "live-activity",
+    "settings-pane",
+    "hud"
+  ],
+  "icon": "GrokNotch.icon",
+  "creator": {
+    "name": "Grok Notch contributors",
+    "kind": "community",
+    "avatar": "Creator.png"
+  },
+  "screenshots": [],
+  "keywords": [
+    "Grok",
+    "bots",
+    "chat",
+    "agents",
+    "local bridge"
+  ]
+}
